@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Configuration, OpenAIApi } from "openai";
 
+
 export default function Home() {
   const [imageUrl, setImageUrl] = useState("");
 
